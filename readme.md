@@ -122,7 +122,7 @@ There are three standard hooks that can be used to add functionality:
 
 ### Reproducibility
 
-Despite passing the seed, there might occur some non-deterministic behavior, which might be fixed by subclassing `GameMaster`.
+Despite passing the seed, there might occur some non-deterministic behavior, which might be fixed by subclassing `GameMaster`. Run `python detect_determinism.py -g <game> -m <model>` to check if a game is deterministic. This will run the first instance of each game 2 times with the same seed and model at temperature `0`, and compare the logs.
 
 For example, in WordChains, the start word is sampled from a list generated from a set, which is non-deterministic. So, `WordChainsMaster` sorts it in `_on_before_reset()`.
 
