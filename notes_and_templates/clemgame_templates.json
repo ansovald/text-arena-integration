@@ -1,0 +1,314 @@
+[
+    {
+        "game_name": "ta_alquerque",
+        "description": "",
+        "entry_point": "textarena.envs.Alquerque.env:AlquerqueEnv",
+        "n_instances": 1,
+        "instances": "in_alquerque",
+        "players": 2
+    },
+    {
+        "game_name": "ta_bandit",
+        "description": "",
+        "entry_point": "textarena.envs.Bandit.env:BanditEnv",
+        "n_instances": 1,
+        "instances": "in_bandit",
+        "players": 1
+    },
+    {
+        "game_name": "ta_chopsticks",
+        "description": "",
+        "entry_point": "textarena.envs.Chopsticks.env:ChopsticksEnv",
+        "n_instances": 1,
+        "instances": "in_chopsticks",
+        "players": 2
+    },
+    {
+        "game_name": "ta_colonel_blotto",
+        "description": "",
+        "entry_point": "textarena.envs.ColonelBlotto.env:ColonelBlottoEnv",
+        "n_instances": 1,
+        "instances": "in_colonel_blotto",
+        "players": 2
+    },
+    {
+        "game_name": "ta_countdown",
+        "description": "",
+        "entry_point": "textarena.envs.Countdown.env:CountdownEnv",
+        "n_instances": 1,
+        "instances": "in_countdown",
+        "players": 1
+    },
+    {
+        "game_name": "ta_cryptarithm",
+        "description": "",
+        "entry_point": "textarena.envs.Cryptarithm.env:CryptarithmEnv",
+        "n_instances": 1,
+        "instances": "in_cryptarithm",
+        "players": 1
+    },
+    {
+        "game_name": "ta_dont_say_it",
+        "description": "",
+        "entry_point": "textarena.envs.DontSayIt.env:DontSayItEnv",
+        "n_instances": 1,
+        "instances": "in_dont_say_it",
+        "players": 2
+    },
+    {
+        "game_name": "ta_fifteen_puzzle",
+        "description": "",
+        "entry_point": "textarena.envs.FifteenPuzzle.env:FifteenPuzzleEnv",
+        "n_instances": 1,
+        "instances": "in_fifteen_puzzle",
+        "players": 1
+    },
+    {
+        "game_name": "ta_2048",
+        "description": "",
+        "entry_point": "textarena.envs.Game2048.env:Game2048Env",
+        "n_instances": 1,
+        "instances": "in_2048",
+        "players": 1
+    },
+    {
+        "game_name": "ta_hangman",
+        "description": "",
+        "entry_point": "textarena.envs.Hangman.env:HangmanEnv",
+        "n_instances": 1,
+        "instances": "in_hangman",
+        "players": 1
+    },
+    {
+        "game_name": "ta_indian_poker",
+        "description": "",
+        "entry_point": "textarena.envs.IndianPoker.env:IndianPokerEnv",
+        "n_instances": 1,
+        "instances": "in_indian_poker",
+        "players": 2
+    },
+    {
+        "game_name": "ta_iterated_matching_pennies",
+        "description": "",
+        "entry_point": "textarena.envs.IteratedMatchingPennies.env:IteratedMatchingPenniesEnv",
+        "n_instances": 1,
+        "instances": "in_iterated_matching_pennies",
+        "players": 2
+    },
+    {
+        "game_name": "ta_iterated_prisoners_dilemma",
+        "description": "",
+        "entry_point": "textarena.envs.IteratedPrisonersDilemma.env:IteratedPrisonersDilemmaEnv",
+        "n_instances": 1,
+        "instances": "in_iterated_prisoners_dilemma",
+        "players": 2
+    },
+    {
+        "game_name": "ta_iterated_ultimatum_game",
+        "description": "",
+        "entry_point": "textarena.envs.IteratedUltimatumGame.env:IteratedUltimatumGameEnv",
+        "n_instances": 1,
+        "instances": "in_iterated_ultimatum_game",
+        "players": 2
+    },
+    {
+        "game_name": "ta_kuhn_poker",
+        "description": "",
+        "entry_point": "textarena.envs.KuhnPoker.env:KuhnPokerEnv",
+        "n_instances": 1,
+        "instances": "in_kuhn_poker",
+        "players": 2
+    },
+    {
+        "game_name": "ta_letter_auction",
+        "description": "",
+        "entry_point": "textarena.envs.LetterAuction.env:LetterAuctionEnv",
+        "n_instances": 1,
+        "instances": "in_letter_auction",
+        "players": 2
+    },
+    {
+        "game_name": "ta_lights_out",
+        "description": "",
+        "entry_point": "textarena.envs.LightsOut.env:LightsOutEnv",
+        "n_instances": 1,
+        "instances": "in_lights_out",
+        "players": 1
+    },
+    {
+        "game_name": "ta_lines_of_action",
+        "description": "",
+        "entry_point": "textarena.envs.LinesOfAction.env:LinesOfActionEnv",
+        "n_instances": 1,
+        "instances": "in_lines_of_action",
+        "players": 2
+    },
+    {
+        "game_name": "ta_logic_puzzle",
+        "description": "",
+        "entry_point": "textarena.envs.LogicPuzzle.env:LogicPuzzleEnv",
+        "n_instances": 1,
+        "instances": "in_logic_puzzle",
+        "players": 1
+    },
+    {
+        "game_name": "ta_memory_game",
+        "description": "",
+        "entry_point": "textarena.envs.MemoryGame.env:MemoryGameEnv",
+        "n_instances": 1,
+        "instances": "in_memory_game",
+        "players": 2
+    },
+    {
+        "game_name": "ta_new_recruit",
+        "description": "",
+        "entry_point": "textarena.envs.NewRecruit.env:NewRecruitEnv",
+        "n_instances": 1,
+        "instances": "in_new_recruit",
+        "players": 2
+    },
+    {
+        "game_name": "ta_peg_jump",
+        "description": "",
+        "entry_point": "textarena.envs.PegJump.env:PegJumpEnv",
+        "n_instances": 1,
+        "instances": "in_peg_jump",
+        "players": 1
+    },
+    {
+        "game_name": "ta_pig_dice",
+        "description": "",
+        "entry_point": "textarena.envs.PigDice.env:PigDiceEnv",
+        "n_instances": 1,
+        "instances": "in_pig_dice",
+        "players": 2
+    },
+    {
+        "game_name": "ta_quantum_tic_tac_toe",
+        "description": "",
+        "entry_point": "textarena.envs.QuantumTicTacToe.env:QuantumTicTacToeEnv",
+        "n_instances": 1,
+        "instances": "in_quantum_tic_tac_toe",
+        "players": 2
+    },
+    {
+        "game_name": "ta_rush_hour",
+        "description": "",
+        "entry_point": "textarena.envs.RushHour.env:RushHourEnv",
+        "n_instances": 1,
+        "instances": "in_rush_hour",
+        "players": 1
+    },
+    {
+        "game_name": "ta_secretary",
+        "description": "",
+        "entry_point": "textarena.envs.Secretary.env:SecretaryEnv",
+        "n_instances": 1,
+        "instances": "in_secretary",
+        "players": 1
+    },
+    {
+        "game_name": "ta_set",
+        "description": "",
+        "entry_point": "textarena.envs.Set.env:SetEnv",
+        "n_instances": 1,
+        "instances": "in_set",
+        "players": 1
+    },
+    {
+        "game_name": "ta_simple_blind_auction",
+        "description": "",
+        "entry_point": "textarena.envs.SimpleBlindAuction.env:SimpleBlindAuctionEnv",
+        "n_instances": 1,
+        "instances": "in_simple_blind_auction",
+        "players": 2
+    },
+    {
+        "game_name": "ta_simple_negotiation",
+        "description": "",
+        "entry_point": "textarena.envs.SimpleNegotiation.env:SimpleNegotiationEnv",
+        "n_instances": 1,
+        "instances": "in_simple_negotiation",
+        "players": 2
+    },
+    {
+        "game_name": "ta_slitherlink",
+        "description": "",
+        "entry_point": "textarena.envs.Slitherlink.env:SlitherlinkEnv",
+        "n_instances": 1,
+        "instances": "in_slitherlink",
+        "players": 1
+    },
+    {
+        "game_name": "ta_spelling_bee",
+        "description": "",
+        "entry_point": "textarena.envs.SpellingBee.env:SpellingBeeEnv",
+        "n_instances": 1,
+        "instances": "in_spelling_bee",
+        "players": 2
+    },
+    {
+        "game_name": "ta_spite_and_malice",
+        "description": "",
+        "entry_point": "textarena.envs.SpiteAndMalice.env:SpiteAndMaliceEnv",
+        "n_instances": 1,
+        "instances": "in_spite_and_malice",
+        "players": 2
+    },
+    {
+        "game_name": "ta_stratego",
+        "description": "",
+        "entry_point": "textarena.envs.Stratego.env:StrategoEnv",
+        "n_instances": 1,
+        "instances": "in_stratego",
+        "players": 2
+    },
+    {
+        "game_name": "ta_sudoku",
+        "description": "",
+        "entry_point": "textarena.envs.Sudoku.env:SudokuEnv",
+        "n_instances": 1,
+        "instances": "in_sudoku",
+        "players": 1
+    },
+    {
+        "game_name": "ta_tak",
+        "description": "",
+        "entry_point": "textarena.envs.Tak.env:TakEnv",
+        "n_instances": 1,
+        "instances": "in_tak",
+        "players": 2
+    },
+    {
+        "game_name": "ta_three_card_monte",
+        "description": "",
+        "entry_point": "textarena.envs.ThreeCardMonte.env:ThreeCardMonteEnv",
+        "n_instances": 1,
+        "instances": "in_three_card_monte",
+        "players": 1
+    },
+    {
+        "game_name": "ta_truth_and_deception",
+        "description": "",
+        "entry_point": "textarena.envs.TruthAndDeception.env:TruthAndDeceptionEnv",
+        "n_instances": 1,
+        "instances": "in_truth_and_deception",
+        "players": 2
+    },
+    {
+        "game_name": "ta_two_dollar",
+        "description": "",
+        "entry_point": "textarena.envs.TwoDollar.env:TwoDollarEnv",
+        "n_instances": 1,
+        "instances": "in_two_dollar",
+        "players": 2
+    },
+    {
+        "game_name": "ta_ultimate_tic_tac_toe",
+        "description": "",
+        "entry_point": "textarena.envs.UltimateTicTacToe.env:UltimateTicTacToeEnv",
+        "n_instances": 1,
+        "instances": "in_ultimate_tic_tac_toe",
+        "players": 2
+    }
+]

@@ -1,0 +1,189 @@
+{
+  "experiments": [
+    {
+      "name": "GameOfPureStrategy-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.GameOfPureStrategy.env:GameOfPureStrategyEnv",
+          "env_id": "GameOfPureStrategy-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.GameOfPureStrategy.env:GameOfPureStrategyEnv",
+          "env_id": "GameOfPureStrategy-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.GameOfPureStrategy.env:GameOfPureStrategyEnv",
+          "env_id": "GameOfPureStrategy-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.GameOfPureStrategy.env:GameOfPureStrategyEnv",
+          "env_id": "GameOfPureStrategy-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A]",
+                "[2]",
+                "[3]",
+                "[4]",
+                "[5]",
+                "[6]",
+                "[7]",
+                "[8]",
+                "[9]",
+                "[10]",
+                "[J]",
+                "[Q]",
+                "[K]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        }
+      ]
+    }
+  ]
+}

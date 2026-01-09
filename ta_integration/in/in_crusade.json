@@ -1,0 +1,99 @@
+{
+  "experiments": [
+    {
+      "name": "Crusade-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Crusade.env:CrusadeEnv",
+          "env_id": "Crusade-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[a2 b4]",
+                "[a2 c3]",
+                "[b2 c4]",
+                "[b2 a4]",
+                "[b2 d3]",
+                "[c2 d4]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[a8 b6]",
+                "[b8 c6]",
+                "[b8 a6]",
+                "[c8 d6]",
+                "[c8 b6]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Crusade.env:CrusadeEnv",
+          "env_id": "Crusade-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[a2 b4]",
+                "[a2 c3]",
+                "[b2 c4]",
+                "[b2 a4]",
+                "[b2 d3]",
+                "[c2 d4]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[a8 b6]",
+                "[b8 c6]",
+                "[b8 a6]",
+                "[c8 d6]",
+                "[c8 b6]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Crusade.env:CrusadeEnv",
+          "env_id": "Crusade-v0-raw",
+          "env_specs": {},
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[a2 b4]",
+                "[a2 c3]",
+                "[b2 c4]",
+                "[b2 a4]",
+                "[b2 d3]",
+                "[c2 d4]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[a8 b6]",
+                "[b8 c6]",
+                "[b8 a6]",
+                "[c8 d6]",
+                "[c8 b6]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}

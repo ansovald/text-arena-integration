@@ -1,0 +1,350 @@
+{
+  "experiments": [
+    {
+      "name": "v0-small",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-small",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 7
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-small",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 7
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-small",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 7
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-small",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 7
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        }
+      ]
+    },
+    {
+      "name": "v0-standard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-standard",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 10
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-standard",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 10
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-standard",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 10
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+          "env_id": "ta_battleship-v0-standard",
+          "register_env": true,
+          "env_specs": {
+            "grid_size": 10
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[A0]",
+                "[B1]",
+                "[C2]",
+                "[D3]",
+                "[E4]",
+                "[F5]",
+                "[G6]",
+                "[H7]",
+                "[I8]",
+                "[J9]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        }
+      ]
+    }
+  ]
+}

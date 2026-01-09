@@ -1,0 +1,799 @@
+{
+  "experiments": [
+    {
+      "name": "FrozenLake-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "FrozenLake-v0-random",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-random-raw",
+          "env_specs": {
+            "size": 4,
+            "num_holes": 3,
+            "randomize_start_goal": true
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "FrozenLake-v0-hardcore",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+          "env_id": "FrozenLake-v0-hardcore-raw",
+          "env_specs": {
+            "size": 5,
+            "num_holes": 6,
+            "randomize_start_goal": false
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[up]",
+                "[down]",
+                "[left]",
+                "[right]",
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    }
+  ]
+}

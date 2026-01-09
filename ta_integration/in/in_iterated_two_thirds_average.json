@@ -1,0 +1,84 @@
+{
+  "experiments": [
+    {
+      "name": "IteratedTwoThirdsAverage-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.IteratedTwoThirdsAverage.env:IteratedTwoThirdsAverageEnv",
+          "env_id": "IteratedTwoThirdsAverage-v0-raw",
+          "env_specs": {
+            "num_rounds": 10,
+            "min_guess": 0.0,
+            "max_guess": 100.0
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[0]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[100]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.IteratedTwoThirdsAverage.env:IteratedTwoThirdsAverageEnv",
+          "env_id": "IteratedTwoThirdsAverage-v0-raw",
+          "env_specs": {
+            "num_rounds": 10,
+            "min_guess": 0.0,
+            "max_guess": 100.0
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[0]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[100]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.IteratedTwoThirdsAverage.env:IteratedTwoThirdsAverageEnv",
+          "env_id": "IteratedTwoThirdsAverage-v0-raw",
+          "env_specs": {
+            "num_rounds": 10,
+            "min_guess": 0.0,
+            "max_guess": 100.0
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[0]"
+              ]
+            },
+            {
+              "role": "Player 1",
+              "custom_response": [
+                "[100]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}

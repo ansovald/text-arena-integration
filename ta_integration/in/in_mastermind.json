@@ -1,0 +1,679 @@
+{
+  "experiments": [
+    {
+      "name": "Mastermind-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 6,
+            "max_turns": 20,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "Mastermind-v0-hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-hard-raw",
+          "env_specs": {
+            "code_length": 4,
+            "num_numbers": 8,
+            "max_turns": 30,
+            "duplicate_numbers": false
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "Mastermind-v0-extreme",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+          "env_id": "Mastermind-v0-extreme-raw",
+          "env_specs": {
+            "code_length": 6,
+            "num_numbers": 12,
+            "max_turns": 50,
+            "duplicate_numbers": true
+          },
+          "player_specs": [
+            {
+              "role": "Codebreaker",
+              "custom_response": [
+                "[red blue green yellow]",
+                "[blue green yellow red]",
+                "[green yellow red blue]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    }
+  ]
+}

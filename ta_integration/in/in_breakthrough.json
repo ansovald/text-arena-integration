@@ -1,0 +1,466 @@
+{
+  "experiments": [
+    {
+      "name": "Breakthrough-v0-tiny",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-tiny-raw",
+          "env_specs": {
+            "board_size": 5,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-tiny-raw",
+          "env_specs": {
+            "board_size": 5,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-tiny-raw",
+          "env_specs": {
+            "board_size": 5,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Breakthrough-v0-small",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-small-raw",
+          "env_specs": {
+            "board_size": 6,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-small-raw",
+          "env_specs": {
+            "board_size": 6,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-small-raw",
+          "env_specs": {
+            "board_size": 6,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Breakthrough-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Breakthrough-v0-large",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-large-raw",
+          "env_specs": {
+            "board_size": 10,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-large-raw",
+          "env_specs": {
+            "board_size": 10,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-large-raw",
+          "env_specs": {
+            "board_size": 10,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Breakthrough-v0-blind",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-blind-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": false
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-blind-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": false
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-blind-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": false
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Breakthrough-v0-long",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-long-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-long-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+          "env_id": "Breakthrough-v0-long-raw",
+          "env_specs": {
+            "board_size": 8,
+            "is_open": true
+          },
+          "player_specs": [
+            {
+              "role": "White",
+              "custom_response": [
+                "[a2a3]"
+              ]
+            },
+            {
+              "role": "Black",
+              "custom_response": [
+                "[c2b3]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}

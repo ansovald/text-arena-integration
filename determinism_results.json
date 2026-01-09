@@ -1,0 +1,158 @@
+{
+    "ta_tower_of_hanoi": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_word_chains": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_minesweeper": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_battleship": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_crosswords": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_fifteen_puzzle": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_guess_the_number": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_logic_puzzle": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_mastermind": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_sudoku": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_word_ladder": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_wordle": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_word_search": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_2048": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_blackjack": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_frozen_lake": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_lights_out": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_set": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_sokoban": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_three_card_monte": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_connect_four": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_breakthrough": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_colonelblotto": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_dont_say_it": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_game_of_pure_strategy": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_german_whist": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_golf": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_crusade": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_high_society": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_iterated_rock_paper_scissors": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_iterated_two_thirds_average": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_kuhn_poker": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_nim": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_othello": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_simple_tak": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_tic_tac_toe": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_truth_and_deception": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_iterated_ultimatum_game": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    },
+    "ta_wild_tic_tac_toe": {
+        "mock": true,
+        "Meta-Llama-3.1-8B-Instruct": true
+    }
+}

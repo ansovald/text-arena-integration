@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ignore OS generated files etc.
+.DS_Store
+.idea/
+__pycache__/
+
+results/
+determinism_tests*/
+tmp*
+
+*.log
+
+# secrets
+key.json
+# optional game registry
+game_registry.json
+# optional model registry
+model_registry.json
+
+results/

@@ -1,0 +1,2 @@
+clemcore==3.3.4
+TextArena==0.7.4

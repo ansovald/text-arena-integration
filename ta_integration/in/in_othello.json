@@ -1,0 +1,232 @@
+{
+  "experiments": [
+    {
+      "name": "Othello-v0-6x6",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-6x6",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 6,
+            "show_valid": true
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-6x6",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 6,
+            "show_valid": true
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-6x6",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 6,
+            "show_valid": true
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Othello-v0-6x6-hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-6x6-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 6,
+            "show_valid": false
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-6x6-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 6,
+            "show_valid": false
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-6x6-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 6,
+            "show_valid": false
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Othello-v0-8x8",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-8x8",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 8,
+            "show_valid": true
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-8x8",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 8,
+            "show_valid": true
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-8x8",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 8,
+            "show_valid": true
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Othello-v0-8x8-hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-8x8-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 8,
+            "show_valid": false
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-8x8-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 8,
+            "show_valid": false
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-8x8-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 8,
+            "show_valid": false
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Othello-v0-10x10",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-10x10",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 10,
+            "show_valid": true
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-10x10",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 10,
+            "show_valid": true
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-10x10",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 10,
+            "show_valid": true
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "Othello-v0-10x10-hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-10x10-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 10,
+            "show_valid": false
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-10x10-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 10,
+            "show_valid": false
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+          "env_id": "ta_othello-Othello-v0-10x10-hard",
+          "register_env": true,
+          "env_specs": {
+            "board_size": 10,
+            "show_valid": false
+          },
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "experiments": [
+    {
+      "name": "GuessTheNumber-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 20,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "GuessTheNumber-v0-hardcore",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+          "env_id": "GuessTheNumber-v0-hardcore-raw",
+          "env_specs": {
+            "min_number": 1,
+            "max_number": 50,
+            "max_turns": 10
+          },
+          "player_specs": [
+            {
+              "role": "Guesser",
+              "custom_response": [
+                "[10]",
+                "[5]",
+                "[15]",
+                "[7]",
+                "[12]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    }
+  ]
+}

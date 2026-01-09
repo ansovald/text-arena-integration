@@ -1,0 +1,649 @@
+{
+  "experiments": [
+    {
+      "name": "Minesweeper-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-raw",
+          "env_specs": {
+            "rows": 8,
+            "cols": 8,
+            "num_mines": 10,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "Minesweeper-v0-small",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-small-raw",
+          "env_specs": {
+            "rows": 5,
+            "cols": 5,
+            "num_mines": 5,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "Minesweeper-v0-medium",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+          "env_id": "Minesweeper-v0-medium-raw",
+          "env_specs": {
+            "rows": 10,
+            "cols": 10,
+            "num_mines": 20,
+            "max_turns": 100
+          },
+          "player_specs": [
+            {
+              "role": "Minesweeper",
+              "custom_response": [
+                "[3 2]",
+                "[5 6]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+[
+    {
+        "game_name": "ta_tower_of_hanoi",
+        "description": "A classic puzzle where the goal is to move a stack of disks from one peg to another, following specific rules.",
+        "entry_point": "textarena.envs.TowerOfHanoi.env:TowerOfHanoiEnv",
+        "n_instances": 1,
+        "instances": "in_tower_of_hanoi",
+        "note": "max turns is double of optimal solution length (2^n - 1)",
+        "experiments": {
+            "TowerOfHanoi-v0-3disks": {
+                "num_disks": 3,
+                "max_turns": 14
+            },
+            "TowerOfHanoi-v0-4disks": {
+                "num_disks": 4,
+                "max_turns": 30
+            },
+            "TowerOfHanoi-v0-5disks": {
+                "num_disks": 5,
+                "max_turns": 62
+            }
+        },
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Solver",
+                "custom_response": ["[A B]", "[A C]", "[B C]", "[B A]", "[C A]", "[C B]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_word_chains",
+        "description": "A word game where players take turns giving a word that starts with the last letter of the previous word, and is exactly one letter longer.",
+        "master": "WordChainsMaster",
+        "scorer": "WordChainsScorer",
+        "entry_point": "textarena.envs.WordChains.env:WordChainsEnv",
+        "n_instances": 10,
+        "instances": "in_word_chains",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": ["[lighter]", "[elephant]", "[tiger]", "[rabbit]"]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": ["[elephant]", "[tiger]", "[rabbit]", "[banana]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_minesweeper",
+        "description": "A single-player puzzle game where the objective is to clear a rectangular board containing hidden 'mines' without detonating any of them, using clues about the number of neighboring mines in each field.",
+        "entry_point": "textarena.envs.Minesweeper.env:MinesweeperEnv",
+        "master": "MinesweeperMaster",
+        "n_instances": 10,
+        "instances": "in_minesweeper",
+        "experiments": ["Minesweeper-v0", "Minesweeper-v0-small", "Minesweeper-v0-medium"],
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Minesweeper",
+                "custom_response": ["[3 2]", "[5 6]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_battleship",
+        "description": "A classic two-player strategy game where players take turns guessing the locations of each other's ships on a grid, aiming to sink all opponent's ships.",
+        "entry_point": "textarena.envs.Battleship.env:BattleshipEnv",
+        "experiments": {
+            "v0-small": {
+                    "grid_size": 7
+            },
+            "v0-standard": {
+                    "grid_size": 10
+            }
+        },
+        "master": "BattleshipMaster",
+        "scorer": "BattleshipScorer",
+        "n_instances": 4,
+        "instances": "in_battleship",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": ["[A0]", "[B1]", "[C2]", "[D3]", "[E4]", "[F5]", "[G6]", "[H7]", "[I8]", "[J9]"]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": ["[A0]", "[B1]", "[C2]", "[D3]", "[E4]", "[F5]", "[G6]", "[H7]", "[I8]", "[J9]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_crosswords",
+        "description": "A word puzzle where players fill in a grid based on given clues, ensuring that words intersect correctly both across and down.",
+        "entry_point": "textarena.envs.Crosswords.env:CrosswordsEnv",
+        "n_instances": 10,
+        "instances": "in_crosswords",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Solver",
+                "custom_response": ["[0 0 A]", "[1 1 B]", "[2 2 C]", "[3 3 D]", "[4 4 E]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_guess_the_number",
+        "description": "A simple game where the player tries to guess a randomly selected number within a specified range, receiving feedback on whether their guess is too high, too low, or correct.",
+        "entry_point": "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv",
+        "n_instances": 10,
+        "instances": "in_guess_the_number",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Guesser",
+                "custom_response": ["[10]", "[5]", "[15]", "[7]", "[12]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_mastermind",
+        "description": "A code-breaking game where one player sets a secret code and the other player tries to guess it within a limited number of attempts, receiving feedback on the accuracy of each guess.",
+        "entry_point": "textarena.envs.Mastermind.env:MastermindEnv",
+        "n_instances": 10,
+        "instances": "in_mastermind",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Codebreaker",
+                "custom_response": ["[red blue green yellow]", "[blue green yellow red]", "[green yellow red blue]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_word_ladder",
+        "description": "A word game where a player has to trasnform a starting word into an ending word by changing one letter at a time, with each intermediate step being a valid word.",
+        "entry_point": "textarena.envs.WordLadder.env:WordLadderEnv",
+        "n_instances": 10,
+        "instances": "in_word_ladder",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Solver",
+                "custom_response": ["[stone]", "[stony]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_wordle",
+        "description": "A word guessing game where the player has six attempts to guess a five-letter target word, receiving feedback on the accuracy of each guess in terms of correct letters and their positions.",
+        "entry_point": "textarena.envs.Wordle.env:WordleEnv",
+        "master": "WordleMaster",
+        "n_instances": 10,
+        "instances": "in_wordle",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Guesser",
+                "custom_response": ["[crane]", "[slate]", "[fling]", "[bumpy]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_word_search",
+        "description": "A puzzle where the player must find and mark all the words hidden in a grid of letters, which can be arranged horizontally, vertically, or diagonally.",
+        "entry_point": "textarena.envs.WordSearch.env:WordSearchEnv",
+        "n_instances": 10,
+        "instances": "in_word_search",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Solver",
+                "custom_response": ["[0 0 0 4]", "[1 1 1 5]", "[2 2 2 6]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_blackjack",
+        "description": "A popular card game where the player aims to have a hand value as close to 21 as possible without exceeding it, competing against the dealer.",
+        "entry_point": "textarena.envs.Blackjack.env:BlackjackEnv",
+        "n_instances": 10,
+        "instances": "in_blackjack",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Player",
+                "custom_response": ["[Hit]", "[Stand]"]
+            }
+        ]
+    },
+        {
+        "game_name": "ta_frozen_lake",
+        "description": "Player has to navigate a frozen lake to reach a goal while avoiding holes.",
+        "entry_point": "textarena.envs.FrozenLake.env:FrozenLakeEnv",
+        "n_instances": 10,
+        "instances": "in_frozen_lake",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[up]",
+                    "[down]",
+                    "[left]",
+                    "[right]",
+                    "[w]",
+                    "[a]",
+                    "[s]",
+                    "[d]"
+                ]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_sokoban",
+        "description": "Player has to move boxes to designated storage locations in a warehouse.",
+        "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+        "n_instances": 10,
+        "instances": "in_sokoban",
+        "players": 1,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[w]",
+                    "[a]",
+                    "[s]",
+                    "[d]"
+                ]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_connect_four",
+        "description": "A two-player game where players take turns dropping colored discs into a vertical grid, aiming to connect four of their own discs in a row either horizontally, vertically, or diagonally.",
+        "entry_point": "textarena.envs.ConnectFour.env:ConnectFourEnv",
+        "n_instances": 3,
+        "instances": "in_connect_four",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": ["[col 1]", "[col 2]", "[col 3]", "[col 4]"]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": ["[col 1]", "[col 2]", "[col 3]", "[col 4]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_breakthrough",
+        "description": "A two-player abstract strategy game where the objective is to move a piece to the opponent's back row or to block all opponent's pieces, using strategic movement and captures.",
+        "entry_point": "textarena.envs.Breakthrough.env:BreakthroughEnv",
+        "n_instances": 3,
+        "instances": "in_breakthrough",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "White",
+                "custom_response": ["[a2a3]"]
+            },
+            {
+                "role": "Black",
+                "custom_response": ["[c2b3]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_game_of_pure_strategy",
+        "description": "A two-player game where each player has a set of cards from Ace to King, and the objective is to win rounds by playing higher cards than the opponent, with the ultimate goal of accumulating the highest total score.",
+        "entry_point": "textarena.envs.GameOfPureStrategy.env:GameOfPureStrategyEnv",
+        "n_instances": 4,
+        "instances": "in_game_of_pure_strategy",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": ["[A]", "[2]", "[3]", "[4]", "[5]", "[6]", "[7]", "[8]", "[9]", "[10]", "[J]", "[Q]", "[K]"]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": ["[A]", "[2]", "[3]", "[4]", "[5]", "[6]", "[7]", "[8]", "[9]", "[10]", "[J]", "[Q]", "[K]"]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_german_whist",
+        "description": "A two-player trick-taking card game where players aim to win tricks and score points based on the cards they collect, with a focus on strategic play and card counting.",
+        "entry_point": "textarena.envs.GermanWhist.env:GermanWhistEnv",
+        "n_instances": 4,
+        "instances": "in_german_whist",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": ["[play 1]", "[play 2]", "[play 3]", "[play 4]"]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": ["[play 1]", "[play 2]", "[play 3]", "[play 4]"]
+            }
+        ]
+    },
+        {
+        "game_name": "ta_crusade",
+        "description": "Player knights move on a chessboard-like grid to capture opponent's pieces, aiming to reach the opposite side of the board.",
+        "entry_point": "textarena.envs.Crusade.env:CrusadeEnv",
+        "n_instances": 3,
+        "instances": "in_crusade",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[a2 b4]", 
+                    "[a2 c3]", 
+                    "[b2 c4]", 
+                    "[b2 a4]", 
+                    "[b2 d3]", 
+                    "[c2 d4]"
+                ]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": [
+                    "[a8 b6]", 
+                    "[b8 c6]", 
+                    "[b8 a6]", 
+                    "[c8 d6]", 
+                    "[c8 b6]"
+                ]
+            }
+        ],
+        "notes": "similar to Breakthrough, but with knights instead of pawns"
+    },
+    {
+        "game_name": "ta_high_society",
+        "description": "Two players have a limited budget to bid on various luxury items, aiming to acquire the most valuable collection without exceeding their budget.",
+        "entry_point": "textarena.envs.HighSociety.env:HighSocietyEnv",
+        "n_instances": 10,
+        "instances": "in_high_society",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[1]",
+                    "[9]",
+                    "[11]"
+                ]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": [
+                    "[1]",
+                    "[7]",
+                    "[11]"
+                ]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_iterated_rock_paper_scissors",
+        "description": "Two players compete for nine rounds of rock-paper-scissors, aiming to win the majority of rounds by strategically choosing their moves based on the opponent's previous choices.",
+        "entry_point": "textarena.envs.IteratedRockPaperScissors.env:IteratedRockPaperScissorsEnv",
+        "n_instances": 3,
+        "instances": "in_iterated_rock_paper_scissors",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[rock]",
+                    "[paper]",
+                    "[scissors]",
+                    "[r]",
+                    "[p]",
+                    "[s]"
+                ]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": [
+                    "[rock]",
+                    "[paper]",
+                    "[scissors]",
+                    "[r]",
+                    "[p]",
+                    "[s]"
+                ]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_iterated_two_thirds_average",
+        "description": "Two players repeatedly choose numbers between 0 and 100, aiming to select a number that is two-thirds of the average of both players' choices over multiple rounds. Popular in game theory studies; this game does not have a strictly dominant strategy.",
+        "entry_point": "textarena.envs.IteratedTwoThirdsAverage.env:IteratedTwoThirdsAverageEnv",
+        "n_instances": 3,
+        "instances": "in_iterated_two_thirds_average",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[0]"
+                ]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": [
+                    "[100]"
+                ]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_nim",
+        "description": "Two players have to remove objects from piles. The player who removes the last object wins.",
+        "entry_point": "textarena.envs.Nim.env:NimEnv",
+        "n_instances": 10,
+        "instances": "in_nim",
+        "players": 2,
+        "player_specs": [
+            {
+                "role": "Player 0",
+                "custom_response": [
+                    "[0 3]",
+                    "[1 1]",
+                    "[2 1]"
+                ]
+            },
+            {
+                "role": "Player 1",
+                "custom_response": [
+                    "[0 3]",
+                    "[1 1]",
+                    "[2 1]"
+                ]
+            }
+        ]
+    },
+    {
+        "game_name": "ta_othello",
+        "description": "Two players have to place pieces on a board, flipping opponent's pieces to their color. The player with the most pieces at the end wins.",
+        "entry_point": "textarena.envs.Othello.env:OthelloEnv",
+        "n_instances": 3,
+        "instances": "in_othello",
+        "experiments": {
+            "Othello-v0-6x6": {
+                "board_size": 6,
+                "show_valid": true
+            },
+            "Othello-v0-6x6-hard": {
+                "board_size": 6,
+                "show_valid": false
+            },
+            "Othello-v0-8x8": {
+                "board_size": 8,
+                "show_valid": true
+            },
+            "Othello-v0-8x8-hard": {
+                "board_size": 8,
+                "show_valid": false
+            },
+            "Othello-v0-10x10": {
+                "board_size": 10,
+                "show_valid": true
+            },
+            "Othello-v0-10x10-hard": {
+                "board_size": 10,
+                "show_valid": false
+            }
+        },
+        "players": 2
+    },
+    {
+        "game_name": "ta_simple_tak",
+        "description": "Players compete placing stones that connect opposite sides of the board while blocking their opponent from doing the same.",
+        "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+        "n_instances": 3,
+        "instances": "in_simple_tak",
+        "players": 2
+    },
+    {
+        "game_name": "ta_tic_tac_toe",
+        "description": "Classic two player game where players alternate placing Xs and Os on a 3x3 grid, aiming to get three in a row horizontally, vertically, or diagonally.",
+        "entry_point": "textarena.envs.TicTacToe.env:TicTacToeEnv",
+        "n_instances": 3,
+        "instances": "in_tic_tac_toe",
+        "players": 2
+    },
+    {
+        "game_name": "ta_wild_tic_tac_toe",
+        "description": "Like classic Tic Tac Toe, but players can choose which symbol (X or O) to place on each turn. Player who first completes three in a row wins.",
+        "entry_point": "textarena.envs.WildTicTacToe.env:WildTicTacToeEnv",
+        "n_instances": 3,
+        "instances": "in_wild_tic_tac_toe",
+        "players": 2
+    }
+]

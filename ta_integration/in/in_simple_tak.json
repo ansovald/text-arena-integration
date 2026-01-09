@@ -1,0 +1,132 @@
+{
+  "experiments": [
+    {
+      "name": "SimpleTak-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-raw",
+          "env_specs": {
+            "board_size": 4
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-raw",
+          "env_specs": {
+            "board_size": 4
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-raw",
+          "env_specs": {
+            "board_size": 4
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "SimpleTak-v0-medium",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-medium-raw",
+          "env_specs": {
+            "board_size": 5
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-medium-raw",
+          "env_specs": {
+            "board_size": 5
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-medium-raw",
+          "env_specs": {
+            "board_size": 5
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "SimpleTak-v0-large",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-large-raw",
+          "env_specs": {
+            "board_size": 6
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-large-raw",
+          "env_specs": {
+            "board_size": 6
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-large-raw",
+          "env_specs": {
+            "board_size": 6
+          },
+          "seed": 525119133
+        }
+      ]
+    },
+    {
+      "name": "SimpleTak-v0-extreme",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-extreme-raw",
+          "env_specs": {
+            "board_size": 8
+          },
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-extreme-raw",
+          "env_specs": {
+            "board_size": 8
+          },
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.SimpleTak.env:SimpleTakEnv",
+          "env_id": "SimpleTak-v0-extreme-raw",
+          "env_specs": {
+            "board_size": 8
+          },
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}

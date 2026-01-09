@@ -1,0 +1,1673 @@
+{
+    "textarena.envs.Alquerque.env:AlquerqueEnv": {
+        "game_ids": [
+            "Alquerque-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Not sure what this game is, but it's not Alquerque. In any case, Player 1 (always?) wins, pretty much regardless of strategy.",
+        "prior_notes": {
+            "2025-11-20": "excluded: older test note",
+            "2025-11-21": "excluded: Just a short test note"
+        },
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[a2 a3]"
+        ]
+    },
+    "textarena.envs.BabyAiText.env:BabyAiTextEnv": {
+        "game_ids": [],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "no `-raw` version available; ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.Bandit.env:BanditEnv": {
+        "game_ids": [
+            "Bandit-v0-raw",
+            "Bandit-v0-hard-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Instruction format not clear (command needs to be in square brackets, but never mentioned in prompt).",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1
+    },
+    "textarena.envs.Battleship.env:BattleshipEnv": {
+        "game_ids": [
+            "Battleship-v0-raw",
+            "Battleship-v0-standard-raw",
+            "Battleship-v0-large-raw",
+            "Battleship-v0-extreme-raw"
+        ],
+        "status": "integrated",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Recurring problem: first occurence of `[a-z][0-9]+` in the prompt is interpreted as the command, even though it might be part of deliberation or other text.",
+        "prior_notes": {},
+        "description": "A classic two-player strategy game where players take turns guessing the locations of each other's ships on a grid, aiming to sink all opponent's ships.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[a4]"
+        ]
+    },
+    "textarena.envs.Blackjack.env:BlackjackEnv": {
+        "game_ids": [
+            "Blackjack-v0-raw",
+            "Blackjack-v0-long-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Cards are drawn from an infinite deck (casino rules: usually 1-8 decks)",
+        "prior_notes": {},
+        "description": "A popular card game where the player aims to have a hand value as close to 21 as possible without exceeding it, competing against the dealer.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[Hit]",
+            "[Stand]"
+        ]
+    },
+    "textarena.envs.Breakthrough.env:BreakthroughEnv": {
+        "game_ids": [
+            "Breakthrough-v0-tiny-raw",
+            "Breakthrough-v0-small-raw",
+            "Breakthrough-v0-raw",
+            "Breakthrough-v0-large-raw",
+            "Breakthrough-v0-blind-raw",
+            "Breakthrough-v0-long-raw"
+        ],
+        "status": "integrated",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A two-player abstract strategy game where the objective is to move a piece to the opponent's back row or to block all opponent's pieces, using strategic movement and captures.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[a2a3]"
+        ]
+    },
+    "textarena.envs.Briscola.env:BriscolaEnv": {
+        "game_ids": [
+            "Briscola-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Briscola supports 2, 3, or 4 players`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.CharacterConclave.env:CharacterConclaveEnv": {
+        "game_ids": [
+            "CharacterConclave-v0-raw",
+            "CharacterConclave-v0-long-raw",
+            "CharacterConclave-v0-extreme-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'<=' not supported between instances of 'int' and 'str'`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.Checkers.env:CheckersEnv": {
+        "game_ids": [
+            "Checkers-v0-raw",
+            "Checkers-v0-long-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "import error: f-string: unmatched '[' (env.py, line 25); ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.Chess.env:ChessEnv": {
+        "game_ids": [
+            "Chess-v0-raw",
+            "Chess-v0-long-raw",
+            "Chess-v0-blind-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "import error: f-string: unmatched '[' (env.py, line 62); ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.Chopsticks.env:ChopsticksEnv": {
+        "game_ids": [
+            "Chopsticks-v0-raw",
+            "Chopsticks-v0-medium-raw",
+            "Chopsticks-v0-long-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "doesn't work, commands not recognized (`Player 0 attempted an invalid move`)",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[attack M O]",
+            "[split L R]"
+        ]
+    },
+    "textarena.envs.Codenames.env:CodenamesEnv": {
+        "game_ids": [
+            "Codenames-v0-raw",
+            "Codenames-v0-hardcore-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `The number of players must be exactly 4. Received multi`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TeamMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.ColonelBlotto.env:ColonelBlottoEnv": {
+        "game_ids": [
+            "ColonelBlotto-v0-small-raw",
+            "ColonelBlotto-v0-raw",
+            "ColonelBlotto-v0-large-raw",
+            "ColonelBlotto-v0-extreme-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Input format not entirely clear: prompt says `in the format [A4 B2 C2]`, but invalid move triggers `Invalid input format. Use: A:5, B:10, C:5`.",
+        "prior_notes": {},
+        "description": "A strategic game where players allocate troops across multiple battlefields, aiming to win the most battlefields by outnumbering their opponent's troops in each one.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[A4 B2 C2]"
+        ]
+    },
+    "textarena.envs.ConnectFour.env:ConnectFourEnv": {
+        "game_ids": [
+            "ConnectFour-v0-raw",
+            "ConnectFour-v0-blind-raw",
+            "ConnectFour-v0-large-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A two-player game where players take turns dropping colored discs into a vertical grid, aiming to connect four of their own discs in a row either horizontally, vertically, or diagonally.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[col 4]",
+            "[col 1]"
+        ]
+    },
+    "textarena.envs.Countdown.env:CountdownEnv": {
+        "game_ids": [
+            "Countdown-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "members of `observation` ordered differently from other games; unhelpful error messages ('You attempted an invalid move. Reason: 0.6930000000000001').",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[i j op]",
+            "[0 2 *]"
+        ]
+    },
+    "textarena.envs.Crosswords.env:CrosswordsEnv": {
+        "game_ids": [
+            "Crosswords-v0-raw",
+            "Crosswords-v0-hardcore-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A word puzzle where players fill in a grid based on given clues, ensuring that words intersect correctly both across and down.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[row column letter]",
+            "[0 0 d]",
+            "[1 2 G]"
+        ]
+    },
+    "textarena.envs.Crusade.env:CrusadeEnv": {
+        "game_ids": [
+            "Crusade-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "similar to Breakthrough, but with knights instead of pawns",
+        "prior_notes": {},
+        "description": "Player knights move on a chessboard-like grid to capture opponent's pieces, aiming to reach the opposite side of the board.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[b1 c3]"
+        ]
+    },
+    "textarena.envs.Cryptarithm.env:CryptarithmEnv": {
+        "game_ids": [
+            "Cryptarithm-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "members of `observation` ordered differently from other games",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[A 5]"
+        ]
+    },
+    "textarena.envs.Debate.env:DebateEnv": {
+        "game_ids": [
+            "Debate-v0-raw",
+            "Debate-v0-medium-raw",
+            "Debate-v0-long-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "uses jury class; ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.DontSayIt.env:DontSayItEnv": {
+        "game_ids": [
+            "DontSayIt-v0-raw",
+            "DontSayIt-v0-hardcore-raw",
+            "DontSayIt-v0-unlimited-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "`TypeError: '>=' not supported between instances of 'int' and 'NoneType'` occurs in some tests at some point",
+        "prior_notes": {},
+        "description": "A conversational game for two players, where each player tries to get the other to use a secret word.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2
+    },
+    "textarena.envs.FifteenPuzzle.env:FifteenPuzzleEnv": {
+        "game_ids": [
+            "FifteenPuzzle-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "High maximum turn count (200) may lead to problems with context length or memory.\nAlso, only first command in square brackets is parsed.",
+        "prior_notes": {},
+        "description": "A sliding puzzle consisting of a 4x4 grid with 15 numbered tiles and one empty space, where the goal is to arrange the tiles in numerical order by sliding them into the empty space.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[up]"
+        ]
+    },
+    "textarena.envs.FrozenLake.env:FrozenLakeEnv": {
+        "game_ids": [
+            "FrozenLake-v0-raw",
+            "FrozenLake-v0-random-raw",
+            "FrozenLake-v0-hardcore-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "Player has to navigate a frozen lake to reach a goal while avoiding holes.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[up]",
+            "[down]",
+            "[left]",
+            "[right]",
+            "[w]",
+            "[a]",
+            "[s]",
+            "[d]"
+        ]
+    },
+    "textarena.envs.Game2048.env:Game2048Env": {
+        "game_ids": [
+            "2048-v0-ultra-easy-raw",
+            "2048-v0-mega-easy-raw",
+            "2048-v0-super-easy-raw",
+            "2048-v0-very-easy-raw",
+            "2048-v0-easy-raw",
+            "2048-v0-raw",
+            "2048-v0-hard-raw",
+            "2048-v0-very-hard-raw",
+            "2048-v0-extreme-raw",
+            "2048-v0-3x3-raw",
+            "2048-v0-5x5-raw",
+            "2048-v0-6x6-raw",
+            "2048-v0-8x8-raw",
+            "2048-v0-10x10-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "For standard mode (4x4, target 2048), the (extremely unlikely) minimum turn count is 510, but can easily go to well over 1000. Especially for other modes, context limits can be reached for a lot of LLMs. Also, game outcome highly depends on random tile spawns, and only partly on the employed strategy.",
+        "prior_notes": {},
+        "description": "A single-player sliding block puzzle game where the objective is to combine tiles with the same number to create a tile with the number 2048.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[Up]",
+            "[Down]",
+            "[Left]",
+            "[Right]"
+        ]
+    },
+    "textarena.envs.GameOfPureStrategy.env:GameOfPureStrategyEnv": {
+        "game_ids": [
+            "GameOfPureStrategy-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Should not be run with t=0, because then players almost always go for the same bid",
+        "prior_notes": {},
+        "description": "A two-player game where each player has a set of cards from Ace to King, and the objective is to win rounds by playing higher cards than the opponent, with the ultimate goal of accumulating the highest total score.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Q]",
+            "[10]",
+            "[2]"
+        ]
+    },
+    "textarena.envs.GermanWhist.env:GermanWhistEnv": {
+        "game_ids": [
+            "GermanWhist-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A two-player trick-taking card game where players aim to win tricks and score points based on the cards they collect, with a focus on strategic play and card counting.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[play X]"
+        ]
+    },
+    "textarena.envs.Golf.env:GolfEnv": {
+        "game_ids": [
+            "Golf-v0-raw",
+            "Golf-v0-medium-raw"
+        ],
+        "status": "excluded",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Instructions unclear: it is never explained that the `?` represent face-down cards",
+        "prior_notes": {},
+        "description": "A two-player card game where players aim to have the lowest score by strategically playing and swapping cards from their hands, with the goal of completing rounds with minimal points.",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.GuessTheNumber.env:GuessTheNumberEnv": {
+        "game_ids": [
+            "GuessTheNumber-v0-raw",
+            "GuessTheNumber-v0-hardcore-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A simple game where the player tries to guess a randomly selected number within a specified range, receiving feedback on whether their guess is too high, too low, or correct.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[5]"
+        ]
+    },
+    "textarena.envs.GuessWho.env:GuessWhoEnv": {
+        "game_ids": [
+            "GuessWho-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "uses OpenRouterAgent; ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.Hangman.env:HangmanEnv": {
+        "game_ids": [
+            "Hangman-v0-raw",
+            "Hangman-v0-hardcore-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Wrong target word guesses do not count as incorrect attempts.",
+        "prior_notes": {},
+        "description": "A classic word guessing game where the player tries to guess a hidden word by suggesting letters within a certain number of attempts.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[L]",
+            "[LIGHT]"
+        ]
+    },
+    "textarena.envs.HighSociety.env:HighSocietyEnv": {
+        "game_ids": [
+            "HighSociety-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Problem: in case of tie, models sometimes keep rebidding with the same card forever. Env does not terminate.",
+        "prior_notes": {},
+        "description": "Two players have a limited budget to bid on various luxury items, aiming to acquire the most valuable collection without exceeding their budget.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[7]",
+            "[11]"
+        ]
+    },
+    "textarena.envs.IndianPoker.env:IndianPokerEnv": {
+        "game_ids": [
+            "IndianPoker-v0-short-raw",
+            "IndianPoker-v0-raw",
+            "IndianPoker-v0-medium-raw",
+            "IndianPoker-v0-long-raw",
+            "IndianPoker-v0-extreme-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Initial budget not included in prompt",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[check]",
+            "[bet X]",
+            "[call]",
+            "[raise X]",
+            "[fold]"
+        ]
+    },
+    "textarena.envs.IteratedMatchingPennies.env:IteratedMatchingPenniesEnv": {
+        "game_ids": [
+            "IteratedMatchingPennies-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Player 0 wins too often (seems like evaluation of rounds is not done correctly)",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[heads]",
+            "[tails]",
+            "[h]",
+            "[t]"
+        ]
+    },
+    "textarena.envs.IteratedPrisonersDilemma.env:IteratedPrisonersDilemmaEnv": {
+        "game_ids": [
+            "IteratedPrisonersDilemma-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Situation is not described, just introduced by `You are Player 0 in an Iterated Prisoner's Dilemma spanning 10 rounds.`",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Cooperate]",
+            "[Defect]"
+        ]
+    },
+    "textarena.envs.IteratedRockPaperScissors.env:IteratedRockPaperScissorsEnv": {
+        "game_ids": [
+            "IteratedRockPaperScissors-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Should not be played with t=0 (players always tie)",
+        "prior_notes": {},
+        "description": "Two players compete for nine rounds of rock-paper-scissors, aiming to win the majority of rounds by strategically choosing their moves based on the opponent's previous choices.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[rock]",
+            "[paper]",
+            "[scissors]",
+            "[r]",
+            "[p]",
+            "[s]"
+        ]
+    },
+    "textarena.envs.IteratedStagHunt.env:IteratedStagHuntEnv": {
+        "game_ids": [
+            "IteratedStagHunt-v0-raw",
+            "IteratedStagHunt-v0-randomized-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "import error: f-string: unmatched '[' (env.py, line 114); ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.IteratedTwoThirdsAverage.env:IteratedTwoThirdsAverageEnv": {
+        "game_ids": [
+            "IteratedTwoThirdsAverage-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Should not be played with t=0 (players always tie)",
+        "prior_notes": {},
+        "description": "Two players repeatedly choose numbers between 0 and 100, aiming to select a number that is two-thirds of the average of both players' choices over multiple rounds. Popular in game theory studies; this game does not have a strictly dominant strategy.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[<number>]"
+        ]
+    },
+    "textarena.envs.IteratedUltimatumGame.env:IteratedUltimatumGameEnv": {
+        "game_ids": [
+            "IteratedUltimatumGame-v0-raw",
+            "IteratedUltimatumGame-v0-alternate-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Rewards in [-1,1] don't make much sense in this game: a pretty dominant strategy would be to make an slightly imbalanced offer in the first round, and if accepted, keep making unreasonable offers in subsequent rounds to keep the advantage and get a reward of 1, but finishing with a very low sum",
+        "prior_notes": {},
+        "description": "Two players have to repeatedly negotiate the division of a sum of money. One player proposes a split, and the other can accept or reject it. If rejected, both get nothing. The game is played over multiple rounds to encourage strategic offers and responses.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Offer: $X]",
+            "[Offer: $3]",
+            "[Offer: $5]",
+            "[Accept]",
+            "[Reject]"
+        ]
+    },
+    "textarena.envs.Klondike.env:KlondikeEnv": {
+        "game_ids": [
+            "Klondike-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "import error: invalid syntax (env.py, line 119); ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.KuhnPoker.env:KuhnPokerEnv": {
+        "game_ids": [
+            "KuhnPoker-v0-raw",
+            "KuhnPoker-v0-short-raw",
+            "KuhnPoker-v0-medium-raw",
+            "KuhnPoker-v0-long-raw",
+            "KuhnPoker-v0-extreme-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Implementation doesn't follow the standard rules: if one player checks and the other bets, there is an immediate showdown (while player 2 would normally have to fold or call). Additionally, the whole messages are passed on to the other player (not mentioned in the prompt; 'smart' models should notice this after round 1, though).",
+        "prior_notes": {},
+        "description": "Simplified two-player poker variant where players bet based on a single card, aiming to win the pot through strategic betting and bluffing.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[check]",
+            "[bet]",
+            "[call]",
+            "[fold]"
+        ]
+    },
+    "textarena.envs.LetterAuction.env:LetterAuctionEnv": {
+        "game_ids": [
+            "LetterAuction-v0-raw",
+            "LetterAuction-v0-medium-raw",
+            "LetterAuction-v0-hard-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "unclear what highest value word is: 'use the letters to form the highest value english word from the letters won'",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[bid 2]",
+            "[bid 10]",
+            "[pass]",
+            "[dog]",
+            "[]",
+            "[Game]"
+        ]
+    },
+    "textarena.envs.LiarsDice.env:LiarsDiceEnv": {
+        "game_ids": [
+            "LiarsDice-v0-small-raw",
+            "LiarsDice-v0-raw",
+            "LiarsDice-v0-large-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'<=' not supported between instances of 'int' and 'str'`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.LightsOut.env:LightsOutEnv": {
+        "game_ids": [
+            "LightsOut-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Valid commands not accepted. Apparently, message must not contain anything but the command, but this is not mentioned in the prompt.",
+        "prior_notes": {},
+        "description": "Player has to switch off all the lights on a grid by toggling them and their neighbors.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[row col]"
+        ]
+    },
+    "textarena.envs.LinesOfAction.env:LinesOfActionEnv": {
+        "game_ids": [
+            "LinesOfAction-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Winning condition somewhat unclear ('Win when all your pieces are 8-neighbour connected.')",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[b1b3]"
+        ]
+    },
+    "textarena.envs.LogicPuzzle.env:LogicPuzzleEnv": {
+        "game_ids": [
+            "LogicPuzzle-v0-raw",
+            "LogicPuzzle-v0-hard-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Prompt states 'You may only submit one move at a time.', but the game actually accepts multiple inputs at once. However, if there is a mistake in one of them, the other moves are applied, but the player is not informed about which one was invalid.",
+        "prior_notes": {},
+        "description": "A puzzle where players use a series of clues to deduce the relationships between different people, places, or things, often presented in a grid format.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[row col X]",
+            "[row col O]",
+            "[park Alice X]",
+            "[park Alice O]"
+        ]
+    },
+    "textarena.envs.MarketEntryGame.env:MarketEntryGameEnv": {
+        "game_ids": [
+            "MarketEntryGame-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'str' object cannot be interpreted as an integer`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.Mastermind.env:MastermindEnv": {
+        "game_ids": [
+            "Mastermind-v0-raw",
+            "Mastermind-v0-hard-raw",
+            "Mastermind-v0-extreme-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A code-breaking game where one player sets a secret code and the other player tries to guess it within a limited number of attempts, receiving feedback on the accuracy of each guess.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[2 1 4 5]"
+        ]
+    },
+    "textarena.envs.MemoryGame.env:MemoryGameEnv": {
+        "game_ids": [
+            "MemoryGame-v0-raw",
+            "MemoryGame-v0-medium-raw",
+            "MemoryGame-v0-hard-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Cards are not shown if not matched, making it a game that hinges a lot on guessing",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[0 1 1 0]"
+        ]
+    },
+    "textarena.envs.Minesweeper.env:MinesweeperEnv": {
+        "game_ids": [
+            "Minesweeper-v0-raw",
+            "Minesweeper-v0-small-raw",
+            "Minesweeper-v0-medium-raw",
+            "Minesweeper-v0-hard-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Excluded 'hard' mode for now, because no model solved the others (yet).\nAlso: First occurence of `[x y]` is interpreted as the command, even though it might be part of deliberation or other text.",
+        "prior_notes": {},
+        "description": "A single-player puzzle game where the objective is to clear a rectangular board containing hidden 'mines' without detonating any of them, using clues about the number of neighboring mines in each field.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[row col]",
+            "[3 2]",
+            "[5 6]"
+        ]
+    },
+    "textarena.envs.NewRecruit.env:NewRecruitEnv": {
+        "game_ids": [
+            "NewRecruit-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Interesting game, but doesn't work yet: `Player 0 (Recruiter) made a new proposal.`, but no proposal is shown",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Propose]",
+            "[Accept]",
+            "[Reject]"
+        ]
+    },
+    "textarena.envs.Nim.env:NimEnv": {
+        "game_ids": [
+            "Nim-v0-raw",
+            "Nim-v0-medium-raw",
+            "Nim-v0-large-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "Two players have to remove objects from piles. The player who removes the last object wins.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[pile quantity]",
+            "[0 3]"
+        ]
+    },
+    "textarena.envs.Othello.env:OthelloEnv": {
+        "game_ids": [
+            "Othello-v0-tiny-raw",
+            "Othello-v0-small-raw",
+            "Othello-v0-raw",
+            "Othello-v0-big-raw",
+            "Othello-v0-huge-raw",
+            "Othello-v0-hard-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Custom experiments, without 'tiny' (4x4) and 'huge' (14x14), but added hard version (available moves not enumerated) for all others",
+        "prior_notes": {},
+        "description": "Two players have to place pieces on a board, flipping opponent's pieces to their color. The player with the most pieces at the end wins.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[row, col]"
+        ]
+    },
+    "textarena.envs.PegJump.env:PegJumpEnv": {
+        "game_ids": [
+            "PegJump-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Some valid moves not accepted",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[4 1]"
+        ]
+    },
+    "textarena.envs.PigDice.env:PigDiceEnv": {
+        "game_ids": [
+            "PigDice-v0-raw",
+            "PigDice-v0-short-raw",
+            "PigDice-v0-long-raw",
+            "PigDice-v0-50-raw",
+            "PigDice-v0-100-raw",
+            "PigDice-v0-150-raw",
+            "PigDice-v0-200-raw",
+            "PigDice-v0-250-raw",
+            "PigDice-v0-300-raw",
+            "PigDice-v0-350-raw",
+            "PigDice-v0-400-raw",
+            "PigDice-v0-450-raw",
+            "PigDice-v0-500-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "[GAME] observations address specific player ('you'), but both players receive the same messages",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[roll]",
+            "[hold]"
+        ]
+    },
+    "textarena.envs.Poker.env:PokerEnv": {
+        "game_ids": [
+            "Poker-v0-small-raw",
+            "Poker-v0-raw",
+            "Poker-v0-long-raw",
+            "Poker-v0-extreme-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'<=' not supported between instances of 'int' and 'str'`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.PublicGoodsGame.env:PublicGoodsGameEnv": {
+        "game_ids": [
+            "PublicGoodsGame-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'str' object cannot be interpreted as an integer`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.QuantumTicTacToe.env:QuantumTicTacToeEnv": {
+        "game_ids": [
+            "QuantumTicTacToe-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Idea of 'entanglement' not explained in the prompt; cell id's not consistent; unnecessary [GAME] messages hard to integrte into clem style transcript",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[a,b]",
+            "[0,4]"
+        ]
+    },
+    "textarena.envs.ReverseTicTacToe.env:ReverseTicTacToeEnv": {
+        "game_ids": [
+            "ReverseTicTacToe-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "import error: f-string: unmatched '[' (env.py, line 24); ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.RushHour.env:RushHourEnv": {
+        "game_ids": [
+            "RushHour-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "directions unclear; 'forward' is either right (indicated) or down (not indicated)",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[X]",
+            "[A+]",
+            "[B-]"
+        ]
+    },
+    "textarena.envs.Santorini.env:SantoriniBaseFixedWorkerEnv": {
+        "game_ids": [
+            "SantoriniBaseFixed-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Number of players must be 2 or 3`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.ScenarioPlanning.env:ScenarioPlanningEnv": {
+        "game_ids": [
+            "ScenarioPlanning-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "uses jury class; ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.ScorableGames.env:ScorableGamesEnv": {
+        "game_ids": [
+            "ScorableGames-v0-raw",
+            "ScorableGames-v0-conservative-raw",
+            "ScorableGames-v0-game1-raw",
+            "ScorableGames-v0-game2-raw",
+            "ScorableGames-v0-game3-raw",
+            "ScorableGames-v0-7players-raw",
+            "ScorableGames-v0-medicalethics-raw",
+            "ScorableGames-v0-vendorretailer-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Game config expects 6 players, got multi`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TeamMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.SecretMafia.env:SecretMafiaEnv": {
+        "game_ids": [
+            "SecretMafia-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'<=' not supported between instances of 'int' and 'str'`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TeamMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.Secretary.env:SecretaryEnv": {
+        "game_ids": [
+            "Secretary-v0-raw",
+            "Secretary-v0-long-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "range of hidden values not specified in instructions",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[accept]",
+            "[continue]"
+        ]
+    },
+    "textarena.envs.Set.env:SetEnv": {
+        "game_ids": [
+            "Set-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "If a player gives several sets (e.g., as part of a deliberation), only the first is parsed. However, feedback is unhelpful: 'That is not a Set. No point for you.'  The player is not informed which one was invalid.",
+        "prior_notes": {},
+        "description": "Player has to find sets of three cards that satisfy specific attribute conditions.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[1, 4, 11]",
+            "[2, 4, 8]"
+        ]
+    },
+    "textarena.envs.SettlersOfCatan.env:SettlersOfCatanEnv": {
+        "game_ids": [
+            "SettlersOfCatan-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Environment is hard-coded for exactly four players. Received multi players on reset.`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "MinimalMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.SimpleBlindAuction.env:SimpleBlindAuctionEnv": {
+        "game_ids": [
+            "SimpleBlindAuction-v0-quick-raw",
+            "SimpleBlindAuction-v0-raw",
+            "SimpleBlindAuction-v0-rich-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Bid still partly accepted if in wrong format, although message calls to 'resubmit'",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Bid on Item X: amount]",
+            "[Bid on Item 0: 250]",
+            "[Bid on Item 3: 175]"
+        ]
+    },
+    "textarena.envs.SimpleNegotiation.env:SimpleNegotiationEnv": {
+        "game_ids": [
+            "SimpleNegotiation-v0-short-raw",
+            "SimpleNegotiation-v0-raw",
+            "SimpleNegotiation-v0-long-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Instructions unclear about sending several commands at once, even though possible in the environment",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Wheat]",
+            "[Wood]",
+            "[Sheep]",
+            "[Brick]",
+            "[Ore]",
+            "[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]",
+            "[Offer: Offered Resources -> Requested Resources]",
+            "[Accept]",
+            "[Deny]"
+        ]
+    },
+    "textarena.envs.SimpleTak.env:SimpleTakEnv": {
+        "game_ids": [
+            "SimpleTak-v0-raw",
+            "SimpleTak-v0-medium-raw",
+            "SimpleTak-v0-large-raw",
+            "SimpleTak-v0-extreme-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "Players compete placing stones that connect opposite sides of the board while blocking their opponent from doing the same.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[12]"
+        ]
+    },
+    "textarena.envs.Slitherlink.env:SlitherlinkEnv": {
+        "game_ids": [
+            "Slitherlink-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "members of `observation` ordered differently from other games",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[h r c]",
+            "[v r c]"
+        ]
+    },
+    "textarena.envs.Snake.env:SnakeEnv": {
+        "game_ids": [
+            "Snake-v0-raw",
+            "Snake-v0-standard-raw",
+            "Snake-v0-large-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'<=' not supported between instances of 'int' and 'str'`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.Sokoban.env:SokobanEnv": {
+        "game_ids": [
+            "Sokoban-v0-raw",
+            "Sokoban-v0-medium-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "Player has to move boxes to designated storage locations in a warehouse.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[w]",
+            "[a]",
+            "[s]",
+            "[d]"
+        ]
+    },
+    "textarena.envs.SpellingBee.env:SpellingBeeEnv": {
+        "game_ids": [
+            "SpellingBee-v0-small-raw",
+            "SpellingBee-v0-raw",
+            "SpellingBee-v0-large-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Valid letters can be very limited, e.g. 'bmst', which does not form any real English words",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[example]"
+        ]
+    },
+    "textarena.envs.SpiteAndMalice.env:SpiteAndMaliceEnv": {
+        "game_ids": [
+            "SpiteAndMalice-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Commands contain unicode characters of playing card suits that are not easily typeable, e.g. '[play K♦ 0]'",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[draw]",
+            "[play A♠ 0]",
+            "[discard A♠ 1]"
+        ]
+    },
+    "textarena.envs.Stratego.env:StrategoEnv": {
+        "game_ids": [
+            "Stratego-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "ranks of pieces not explained in the prompt, even though relevant for gameplay",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[A0 B0]"
+        ]
+    },
+    "textarena.envs.Sudoku.env:SudokuEnv": {
+        "game_ids": [
+            "Sudoku-v0-very-easy-raw",
+            "Sudoku-v0-easy-raw",
+            "Sudoku-v0-raw",
+            "Sudoku-v0-medium-raw",
+            "Sudoku-v0-hard-raw"
+        ],
+        "status": "excluded",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Env just checks if the number the player tries to place is the same as the pre-generated solution, not taking into account there might be other solutions that also satisfy Sudoku rules",
+        "prior_notes": {},
+        "description": "A number-placement puzzle where the objective is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids contain all of the digits from 1 to 9 without repetition.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[row column number]",
+            "[5 3 7]",
+            "[1 1 9]",
+            "[1 3 5]"
+        ]
+    },
+    "textarena.envs.Surround.env:SurroundEnv": {
+        "game_ids": [
+            "Surround-v0-raw",
+            "Surround-v0-standard-raw",
+            "Surround-v0-large-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `'<=' not supported between instances of 'int' and 'str'`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.Taboo.env:TabooEnv": {
+        "game_ids": [
+            "Taboo-v0-raw",
+            "Taboo-v0-animals-raw",
+            "Taboo-v0-cars-raw",
+            "Taboo-v0-city/country-raw",
+            "Taboo-v0-food-raw",
+            "Taboo-v0-literature-raw",
+            "Taboo-v0-people-raw",
+            "Taboo-v0-tv-raw",
+            "Taboo-v0-long-raw",
+            "Taboo-v0-full-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `not all arguments converted during string formatting`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TeamMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.Tak.env:TakEnv": {
+        "game_ids": [
+            "Tak-v0-raw",
+            "Tak-v0-medium-raw",
+            "Tak-v0-hard-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "axes not marked (first coordinate is row, second is column); explained 'Wall Stones' apparently not available; command format very complicated `[place () {(3,2): [C0]`; some placements don't work for unclear reasons (`Player 1 tried to place a piece on an invalid square`, even though the square is empty)",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[ACTION SOURCE ALLOCATION]",
+            "[place () {(3,2): [C0]",
+            "[move (2,2) {(2,3): [F0]",
+            "[move (2,2) {(2,3): [F0, F0]",
+            "[W0, F0, C0]"
+        ]
+    },
+    "textarena.envs.ThreeCardMonte.env:ThreeCardMonteEnv": {
+        "game_ids": [
+            "ThreeCardMonte-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Utterly unhelpful feedback: 'You attempted an invalid move. Reason: 0.0'",
+        "prior_notes": {},
+        "description": "Player has to guess the position of the target card after a series of shuffles.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[k]"
+        ]
+    },
+    "textarena.envs.ThreePlayerGOPS.env:ThreePlayerGOPSEnv": {
+        "game_ids": [
+            "ThreePlayerGOPS-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Three-player GOPS requires exactly 3 players (got multi).`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.ThreePlayerIPD.env:ThreePlayerIPDEnv": {
+        "game_ids": [
+            "ThreePlayerIPD-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Environment is hard-coded for exactly three players. Received multi players on reset.`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.ThreePlayerTicTacToe.env:ThreePlayerTicTacToeEnv": {
+        "game_ids": [
+            "ThreePlayerTicTacToe-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `ThreePlayerTicTacToe only works with exactly three players. multi players were provided.`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.TicTacToe.env:TicTacToeEnv": {
+        "game_ids": [
+            "TicTacToe-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "Classic two player game where players alternate placing Xs and Os on a 3x3 grid, aiming to get three in a row horizontally, vertically, or diagonally.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[4]"
+        ]
+    },
+    "textarena.envs.TowerOfHanoi.env:TowerOfHanoiEnv": {
+        "game_ids": [
+            "TowerOfHanoi-v0-raw",
+            "TowerOfHanoi-v0-medium-raw",
+            "TowerOfHanoi-v0-hard-raw",
+            "TowerOfHanoi-v0-hardcore-raw",
+            "TowerOfHanoi-v0-extreme-raw"
+        ],
+        "status": "integrated",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Only added 3, 4, and 5 disks (because models can't even solve 3)",
+        "prior_notes": {},
+        "description": "A classic puzzle where the goal is to move a stack of disks from one peg to another, following specific rules.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[A C]"
+        ]
+    },
+    "textarena.envs.TruthAndDeception.env:TruthAndDeceptionEnv": {
+        "game_ids": [
+            "TruthAndDeception-v0-raw",
+            "TruthAndDeception-v0-long-raw",
+            "TruthAndDeception-v0-extreme-raw"
+        ],
+        "status": "excluded",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "'Guesser' knows both the game name, and that the other player's role is the 'Deceiver', which destroys the whole prupose. Also, 'extreme' version is waaaay to long with 50 rounds (models just started writing each other poems at some point).",
+        "prior_notes": {},
+        "description": "Players are presented with two statements, one true and one false. Player 0 must convince Player 1 to believe the false statement through strategic communication.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2
+    },
+    "textarena.envs.TwentyQuestions.env:TwentyQuestionsEnv": {
+        "game_ids": [
+            "TwentyQuestions-v0-raw",
+            "TwentyQuestions-v0-hardcore-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "uses OpenRouterAgent; ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.TwoDollar.env:TwoDollarEnv": {
+        "game_ids": [
+            "TwoDollar-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Proposal format unclear; `[Propose] $1.50` means the player sending the message wants 1.50 for themselves, but not explained in the prompt",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Propose]",
+            "[Accept]",
+            "[Reject]"
+        ]
+    },
+    "textarena.envs.UltimateTexasHoldem.env:UltimateTexasHoldemEnv": {
+        "game_ids": [
+            "UltimateTexasHoldem-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "import error: f-string: unmatched '[' (env.py, line 228); ",
+        "prior_notes": {},
+        "description": ""
+    },
+    "textarena.envs.UltimateTicTacToe.env:UltimateTicTacToeEnv": {
+        "game_ids": [
+            "UltimateTicTacToe-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Player 1 is supposed to play in the `next microboard` indicated by Player 0's last move, but this doesn't work and always results in an invalid move",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[macro  micro]",
+            "[7 8]"
+        ]
+    },
+    "textarena.envs.UsedCarNegotiation.env:UsedCarNegotiationEnv": {
+        "game_ids": [
+            "UsedCarNegotiation-v0-raw",
+            "UsedCarNegotiation-v0-strong-buyer-raw",
+            "UsedCarNegotiation-v0-strong-seller-raw",
+            "UsedCarNegotiation-v0-balanced-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Interesting game, but guideline includes `Do not use coercion, lie, or misrepresent any facts [..]`, which can't be enforced",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Offer: <PRICE>]",
+            "[Accept]",
+            "[Reject]",
+            "[Discuss: <MESSAGE>]"
+        ]
+    },
+    "textarena.envs.VendorNegotiation.env:VendorNegotiationEnv": {
+        "game_ids": [
+            "VendorNegotiation-v0-raw",
+            "VendorNegotiation-v0-lite-raw",
+            "VendorNegotiation-v0-heavy-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "Instructions somewhat unclear: how many units are being negotiated? It appears to be just one, but then the given discount tables don't make much sense.",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[Propose]",
+            "[Accept]",
+            "[Reject]"
+        ]
+    },
+    "textarena.envs.WildTicTacToe.env:WildTicTacToeEnv": {
+        "game_ids": [
+            "WildTicTacToe-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "Like classic Tic Tac Toe, but players can choose which symbol (X or O) to place on each turn. Player who first completes three in a row wins.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[X 4]"
+        ]
+    },
+    "textarena.envs.WinAsMuchAsYouCan.env:WinAsMuchAsYouCanEnv": {
+        "game_ids": [
+            "WinAsMuchAsYouCan-v0-raw"
+        ],
+        "status": "excluded",
+        "model_tested": false,
+        "prior_model_tests": {},
+        "notes": "couldn't set up env: `Win as Much as You Can requires exactly 4 players`; ",
+        "prior_notes": {},
+        "description": "",
+        "state_class": "FFAMultiPlayerState",
+        "num_players": "multi"
+    },
+    "textarena.envs.WordChains.env:WordChainsEnv": {
+        "game_ids": [
+            "WordChains-v0-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A word game where players take turns giving a word that starts with the last letter of the previous word, and is exactly one letter longer.",
+        "state_class": "TwoPlayerState",
+        "num_players": 2,
+        "possible_commands": [
+            "[apple]",
+            "[monkey]",
+            "[prob]"
+        ]
+    },
+    "textarena.envs.WordLadder.env:WordLadderEnv": {
+        "game_ids": [
+            "WordLadder-v0-raw",
+            "WordLadder-v0-medium-raw",
+            "WordLadder-v0-hard-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A word game where a player has to trasnform a starting word into an ending word by changing one letter at a time, with each intermediate step being a valid word.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[word]"
+        ]
+    },
+    "textarena.envs.WordSearch.env:WordSearchEnv": {
+        "game_ids": [
+            "WordSearch-v0-raw",
+            "WordSearch-v0-hardcore-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "Appears to be working (with the caveat of parsing multiple commands)",
+        "prior_notes": {},
+        "description": "A puzzle where the player must find and mark all the words hidden in a grid of letters, which can be arranged horizontally, vertically, or diagonally.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[ ]",
+            "[start_row start_col end_row end_col]",
+            "[1 1 1 5]"
+        ]
+    },
+    "textarena.envs.Wordle.env:WordleEnv": {
+        "game_ids": [
+            "Wordle-v0-raw",
+            "Wordle-v0-hardcore-raw",
+            "Wordle-v0-long-raw",
+            "Wordle-v0-long-hardcore-raw"
+        ],
+        "status": "integrated",
+        "model_tested": true,
+        "prior_model_tests": {},
+        "notes": "",
+        "prior_notes": {},
+        "description": "A word guessing game where the player has six attempts to guess a five-letter target word, receiving feedback on the accuracy of each guess in terms of correct letters and their positions.",
+        "state_class": "SinglePlayerState",
+        "num_players": 1,
+        "possible_commands": [
+            "[apple]"
+        ]
+    }
+}

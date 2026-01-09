@@ -1,0 +1,514 @@
+{
+  "experiments": [
+    {
+      "name": "Sokoban-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-raw",
+          "env_specs": {
+            "dim_room": [
+              6,
+              6
+            ],
+            "max_turns": 30,
+            "num_boxes": 3
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    },
+    {
+      "name": "Sokoban-v0-medium",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119133
+        },
+        {
+          "game_id": 3,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119134
+        },
+        {
+          "game_id": 4,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119135
+        },
+        {
+          "game_id": 5,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119136
+        },
+        {
+          "game_id": 6,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119137
+        },
+        {
+          "game_id": 7,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119138
+        },
+        {
+          "game_id": 8,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119139
+        },
+        {
+          "game_id": 9,
+          "entry_point": "textarena.envs.Sokoban.env:SokobanEnv",
+          "env_id": "Sokoban-v0-medium-raw",
+          "env_specs": {
+            "dim_room": [
+              8,
+              8
+            ],
+            "max_turns": 50,
+            "num_boxes": 5
+          },
+          "player_specs": [
+            {
+              "role": "Player 0",
+              "custom_response": [
+                "[w]",
+                "[a]",
+                "[s]",
+                "[d]"
+              ]
+            }
+          ],
+          "seed": 525119140
+        }
+      ]
+    }
+  ]
+}

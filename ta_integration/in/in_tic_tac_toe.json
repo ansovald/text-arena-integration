@@ -1,0 +1,30 @@
+{
+  "experiments": [
+    {
+      "name": "TicTacToe-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.TicTacToe.env:TicTacToeEnv",
+          "env_id": "TicTacToe-v0-raw",
+          "env_specs": {},
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.TicTacToe.env:TicTacToeEnv",
+          "env_id": "TicTacToe-v0-raw",
+          "env_specs": {},
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.TicTacToe.env:TicTacToeEnv",
+          "env_id": "TicTacToe-v0-raw",
+          "env_specs": {},
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}

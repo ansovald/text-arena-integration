@@ -1,0 +1,30 @@
+{
+  "experiments": [
+    {
+      "name": "WildTicTacToe-v0",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "entry_point": "textarena.envs.WildTicTacToe.env:WildTicTacToeEnv",
+          "env_id": "WildTicTacToe-v0-raw",
+          "env_specs": {},
+          "seed": 525119131
+        },
+        {
+          "game_id": 1,
+          "entry_point": "textarena.envs.WildTicTacToe.env:WildTicTacToeEnv",
+          "env_id": "WildTicTacToe-v0-raw",
+          "env_specs": {},
+          "seed": 525119132
+        },
+        {
+          "game_id": 2,
+          "entry_point": "textarena.envs.WildTicTacToe.env:WildTicTacToeEnv",
+          "env_id": "WildTicTacToe-v0-raw",
+          "env_specs": {},
+          "seed": 525119133
+        }
+      ]
+    }
+  ]
+}
